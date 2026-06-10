@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title><![CDATA[LLM비교]]></title>
+  <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451</link>
+  <description><![CDATA[LLM비교 - PBN 빌더 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Wed, 10 Jun 2026 19:51:46 GMT</pubDate>
+  <lastBuildDate>Wed, 10 Jun 2026 19:51:46 GMT</lastBuildDate>
+  <atom:link href="https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451/feed.xml" rel="self" type="application/rss+xml" />
+  
+    <item>
+      <title><![CDATA[PBN 빌더 경험자에게 물어본 현실적인 판단 기준]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451/posts/interview-002-12sp8o4.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451/posts/interview-002-12sp8o4.html</guid>
+      <description><![CDATA[### 제목: 창작한 제목: ML 엔지니어의 프로덕션 배포 후 3개월 만에 발생하는 양자화 미스 디버깅 --- 아, 진짜... 최근 우리의 모델을 양자화한 후 프로덕션 배포가 진행되다 보면, 어떤 히든 dims가 잘려나가는 현상이 발견되었습니다. 이 문제는 실제 사용자]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[PBN 빌더에 관한 흔한 오해, 직접 확인해보니 달랐던 점]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451/posts/myth-001-12sp8o4.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451/posts/myth-001-12sp8o4.html</guid>
+      <description><![CDATA[### 제목 창작 지시제목: **"쿠버네티스 1.29에서 CSI 드라이버와의 상호작용으로 발생한 볼륨 마운트 경합 버그: Apache Superset RC3 업데이트 후 디스크 I/O 증가 원인 분석"** ### 이미지 생성 지시 #### [POST DNA f1dd37]]></description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+</channel>
+</rss>

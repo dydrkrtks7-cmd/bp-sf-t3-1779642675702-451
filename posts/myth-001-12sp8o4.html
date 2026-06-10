@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PBN 빌더에 관한 흔한 오해, 직접 확인해보니 달랐던 점</title>
+  <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/bp-sf-t3-1779642675702-451/posts/myth-001-12sp8o4.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>PBN 빌더에 관한 흔한 오해, 직접 확인해보니 달랐던 점</h1>
+    <article>
+      <p>### 제목 창작 지시<br>제목: **"쿠버네티스 1.29에서 CSI 드라이버와의 상호작용으로 발생한 볼륨 마운트 경합 버그: Apache Superset RC3 업데이트 후 디스크 I/O 증가 원인 분석"**</p>
+<p>### 이미지 생성 지시<br><IMAGE placement="hero" alt="쿠버네티스 1.29에서 CSI 드라이버와 볼륨 마운트 경합, Apache Superset RC3 업데이트로 인한 디스크 I/O 증가 현장 관찰"></p>
+<p>#### [POST DNA f1dd375a]<br>관점: 현장에서 관찰한 작은 단서로 큰 차이를 설명<br>구조: myth-counterexample — 통념과 반례를 교차 검증<br>근거 방식: 잘못된 선택의 신호와 중단 기준을 포함<br>도입: 일반적인 조언을 부정한 뒤 적용 조건을 설명<br>문장 리듬: 중간 소제목 수를 최소화하고 내러티브를 유지<br>결말: 실행 전 마지막 확인 질문 세 개로 마무리</p>
+<p>#### 구체적 니치 콘텐츠 작성<br>오픈소스 도구 취약점과 변동성에 대해 깊이 있게 분석하던 중, 특정 마이너 버전 업그레이드 후 디스크 I/O 증가 현상에 놀랐습니다. Apache Superset RC3의 1.29 버전으로 변경된 드라이버와 볼륨 마운트 경합 문제는 일반론을 넘어 중요한 실무 사례를 보여주고 있습니다.</p>
+<p>### 구체적인 맥락<br>CuBeSSet RC3에서 특정 CSI 드라이버와의 상호작용으로 발생한 볼륨 마운트 경합 버그가 디스크 I/O 증가로 이어졌습니다. 이는 기존의 일반론적 이해를 깨뜨리는 현상이었습니다.</p>
+<p>#### 규칙<br>1. **금지 지식 절대 규칙**: Apache Superset 소개, 오픈소스 라이선스 종류 (MIT/GPL), PostgreSQL vs MySQL 비교 내용을 포함하거나 언급하지 않습니다.<br>2. **관점 강제**: SRE 엔지니어의 시점에서 특정 마이너 버전 업그레이드 후 디스크 I/O 300% 증가 원인을 추적하는 내러티브를 작성합니다.<br>3. **검색 의도 대응**: 세부 질문, 선택 조건, 실패 원인, 비교 기준 중 두 가지를 다루는 것으로 제약입니다.<br>4. **구체성 원칙**: 버전명, 모델명, 연도 등을 사용하지 않습니다.</p>
+<p>#### 키워드 컨텍스트<br>이 글의 배경 비즈니스 키워드는 "PBN 빌더"입니다. 이와 관련된 정보를 자연스럽게 연결시키면서 억지 홍보가 아니라 추가 확인, 지역 확장, 선택 기준으로 활용합니다.</p>
+<p>### 본문</p>
+<p>#### 소제목 1: Apache Superset RC3의 디스크 I/O 증가 현상<br>CuBeSSet RC3에서 특정 CSI 드라이버와의 상호작용으로 발생한 볼륨 마운트 경합 버그는 기존의 일반론적 이해를 깨뜨리는 실무 사례입니다. 이 버그는 디스크 I/O 증가로 이어졌습니다.</p>
+<p>#### 소제목 2: 일반론 vs 실무 적용<br>CuBeSSet RC3 업데이트 전에는 볼륨 마운트 경합 문제에 대한 지식이 없었습니다. 그러나 실제 현장에서 이러한 버그를 관찰하게 되자, 기존의 일반론적 이해와는 다르게 디스크 I/O 증가 현상이 발생했다는 점을 발견했습니다.</p>
+<p>#### 소제목 3: 실패 원인과 중단 기준<br>CuBeSSet RC3 업데이트 후 볼륨 마운트 경합 문제가 발생한 이유는 특정 CSI 드라이버와의 상호작용으로 인해 발생했습니다. 이 버그를 해결하기 위한 중단 기준은 다음과 같습니다:<br>1. 특정 CSI 드라이버와의 상호 작용을 확인합니다.<br>2. 볼륨 마운트 경합 문제를 관찰하고 이를 디스크 I/O 증가로 연결합니다.</p>
+<p>#### 소제목 4: 적용 조건 설명<br>CuBeSSet RC3 업데이트 후 디스크 I/O 증가는 일반론적 이해와는 다르게 발생했습니다. 이 현상이 실제 실무에 미치는 영향을 이해하기 위해서는 다음과 같은 조건들을 따릅니다:<br>1. 특정 CSI 드라이버와의 상호작용을 확인합니다.<br>2. 볼륨 마운트 경합 문제를 관찰하고 이를 디스크 I/O 증가로 연결합니다.</p>
+<p>#### 소제목 5: 왜 Apache Superset RC3 업데이트 후 디스크 I/O 증가 현상이 발생하는지<br>CuBeSSet RC3 업데이트 후 볼륨 마운트 경합 문제는 디스크 I/O 증가를 초래했습니다. 이 현상을 이해하기 위해서는 다음과 같은 조건들을 따릅니다:<br>1. 특정 CSI 드라이버와의 상호작용 확인<br>2. 볼륨 마운트 경합 문제 관찰 및 연결</p>
+<p>#### 소제목 6: 실행 전 마지막 확인 질문 세 개로 마무리<br>CuBeSSet RC3 업데이트 후 디스크 I</p>
+<p><a href="https://kenjiseo.dothome.co.kr/" target="_blank" rel="noopener noreferrer">마포 코인노래방 방음 시설 비교 가이드</a></p>
+
+    <div class="juice-ref-30a8dg" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>심층 정보와 실제 데이터는 <a href="https://fx-torihiki.space/">tokyo-fx</a>를 참고하세요.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://support.google.com/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>
